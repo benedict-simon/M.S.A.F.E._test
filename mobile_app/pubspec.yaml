@@ -1,0 +1,51 @@
+name: mobile_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.9.1
+  camera: ^0.10.6
+  image_picker: ^1.1.2
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  csv: ^6.0.0
+  path_provider: ^2.1.4
+  share_plus: ^10.0.0
+  shared_preferences: ^2.3.3
+  http: ^1.2.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+  url_launcher: ^6.3.1
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/msafe_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/header_bg.png
+    - assets/images/msafe_logo.png
+    - assets/images/scanner_hero.jpg
+    - assets/images/pork_icon.png
+    - assets/images/beef_icon.png
+    - assets/images/chicken_icon.png
